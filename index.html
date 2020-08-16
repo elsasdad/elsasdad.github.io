@@ -9,6 +9,7 @@
 
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400,500,700">
 
+
 	  <style>
 		  body {
 			  font-family: "Roboto Slab";
@@ -16,7 +17,7 @@
 			  font-size:18px;
 		  }
 		  .main {
-			  margin:15% 0 25% 0;
+			  margin:15% 0 25% 3%;
 		  }
 		  .icon {
 			  width:50px;
@@ -63,7 +64,42 @@
 			  border-radius:50%;
 			  padding:0;
 		  }
-
+		  form {
+			  margin: 0 auto;
+			  width:400px;
+			  margin-bottom:50px;
+		  }
+		  label {
+			  display:block;
+			  padding:10px 0;
+			  
+		  }
+		  input {
+			  width: 400px;
+			  background-color:#b9e0f4;
+			  border:1px solid #b9e0f4;
+			  font-size:18px;
+		  }
+		  textarea {
+			  width:400px;
+			  background-color:#b9e0f4;
+			  border:1px solid #b9e0f4;
+			  font-size:18px;
+		  }
+		  button {
+		    padding: 0;
+		    border: 2px solid #FF69B4;
+		    font: inherit;
+		    color: inherit;
+		    background-color: transparent;
+		    cursor: pointer;
+			border-radius: 20px;
+			padding:10px 20px;
+		  }
+		  button:hover {
+			  color:white;
+			  background-color:#FF69B4;
+		  }
 	  </style>
 </head>
 <body>
@@ -76,12 +112,30 @@
 		</div>
 	<p>
 		Hello!<br><br>
-		<a href="https://olbe.net"><b>olbe.net</b></a> is for personal use only<br>(and is not for sale).<br><br>
+		<a href="http://olbe.net"><b>olbe.net</b></a> is for personal use only<br>(and is not for sale).<br><br>
+		If you want to contact us, please use the form below.<br><br>
 		Cheers, <br>R.
 	</p>
+	<form action="https://formspree.io/mlepvqej" method="POST">
+	  	<label>
+	    	Your email:<br>
+			<input type="text" name="_replyto">
+	  	</label>
+	  	<label>
+	    	Your message:<br>
+			<textarea name="message"></textarea>
+	  	</label>
+
+	  <!-- your other form fields go here -->
+
+	  	<button type="submit">Send</button>
+	</form>
 	<div class="info">
-		<p>&sdot; Hosted &commat; <a href="https://github.com">GitHub</a> &sdot; </p>
+		<p>&sdot; Redirect hosted &commat; <a href="https://github.com">GitHub</a> &sdot; </p>
+		
 	</div>
+
+	
 	</div>
 </body>
 </html>
