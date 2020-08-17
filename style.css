@@ -53,7 +53,7 @@ img {
 }
 form {
   margin: 0 auto;
-  width:346px;
+  width:340px;
   margin-bottom:50px;
   padding:0;
 }
@@ -67,14 +67,14 @@ input {
   background-color:#b9e0f4;
   border:1px solid #b9e0f4;
   font-size:18px;
-  padding:2px;
+  padding:5px;
 }
 textarea {
   width:100%;
   background-color:#b9e0f4;
   border:1px solid #b9e0f4;
   font-size:18px;
-  padding:2px;
+  padding:5px;
 }
 button {
   padding: 0;
