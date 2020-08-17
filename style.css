@@ -1,92 +1,90 @@
 body {
-  font-family: "Roboto Slab";
-  background-color:white;
-  font-size:18px;
+	font-family: "Roboto Slab";
+	background-color:white;
+	font-size:18px;
 }
 .main {
-  margin:15% 0 25% 0%;
+	margin:15% 0 25% 0%;
 }
 .icon {
-  width:50px;
-  margin:4% auto;
+	width:50px;
+	margin:4% auto;
 }
 .info p {
-  margin:0;
-  font-size:70%;
-  font-weight:400;
-  margin:0;
-  padding:0;
+	margin:0;
+	font-size:70%;
+	font-weight:400;
+	margin:0;
+	padding:0;
 }
 p {
-  text-align:center;
-  font-size:100%;
-  font-weight:400;
-  margin:3% 0;
-  
+	text-align:center;
+	font-size:100%;
+	font-weight:400;
+	margin:3% 0;
 }
 b {
-  font-weight:700;
+	font-weight:700;
 }
 i {
-  font-size:48px;
+	font-size:48px;
 }
 a {
-  text-decoration:none;
-  color:#FF69B4;
-  font-weight:500;
+	text-decoration:none;
+	color:#FF69B4;
+	font-weight:500;
 }
 a:hover {
-  color:white;
-  font-weight:500;
-  background:#FF69B4;
+	color:white;
+	font-weight:500;
+	background:#FF69B4;
 }
 .images {
-  margin:0 auto 3% auto;
-  padding:0;
-  width: 380px;
+	margin:0 auto 3% auto;
+	padding:0;
+	width: 380px;
 }
 img {
-  display:inline;
-  margin:0 auto;
-  border-radius:50%;
-  padding:0;
+	display:inline;
+	margin:0 auto;
+	border-radius:50%;
+	padding:0;
 }
 form {
-  margin: 0 auto;
-  width:340px;
-  margin-bottom:50px;
-  padding:0;
+	margin: 0 auto;
+	width:340px;
+	margin-bottom:50px;
+	padding:0;
 }
 label {
-  display:block;
-  padding:10px 0;
-  
+	display:block;
+	padding:10px 0;
 }
 input {
-  width:100%;
-  background-color:#b9e0f4;
-  border:1px solid #b9e0f4;
-  font-size:18px;
-  padding:5px;
+	width:100%;
+	background-color:#b9e0f4;
+	border:1px solid #b9e0f4;
+	font-size:18px;
+	padding:5px;
 }
 textarea {
-  width:100%;
-  background-color:#b9e0f4;
-  border:1px solid #b9e0f4;
-  font-size:18px;
-  padding:5px;
+	width:100%;
+	background-color:#b9e0f4;
+	border:1px solid #b9e0f4;
+	font-size:18px;
+	padding:5px;
 }
 button {
-  padding: 0;
-  font: inherit;
-  color: white;
-  background-color: #FF69B4;
-  cursor: pointer;
-border-radius: 20px;
-padding:10px 20px 10px 20px;
-border:none;
+	padding: 0;
+	font: inherit;
+	color: white;
+	background-color: #FF69B4;
+	cursor: pointer;
+	border-radius: 20px;
+	padding:10px 20px 10px 20px;
+	border:none;
 }
 button:hover {
-  color:black;
-  background-color:#FF69B4;
+	color:black;
+	background-color:#FF69B4;
 }
