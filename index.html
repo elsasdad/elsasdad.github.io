@@ -9,136 +9,87 @@
 
 	  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:200,400,500,700">
 
+  <link href="style.css" rel="stylesheet" id="theme-link">
 
-	  <style>
+  <style>
+	  @media (prefers-color-scheme: dark) {
 		  body {
-			  font-family: "Roboto Slab";
-			  background-color:white;
-			  font-size:18px;
-		  }
-		  .main {
-			  margin:15% 0 25% 3%;
-		  }
-		  .icon {
-			  width:50px;
-			  margin:4% auto;
-		  }
-		  .info p {
-			  margin:0;
-			  font-size:70%;
-			  font-weight:400;
-			  margin:0;
-			  padding:0;
-		  }
-		  p {
-			  text-align:center;
-			  font-size:100%;
-			  font-weight:400;
-			  margin:3% 0;
-			  
-		  }
-		  b {
-			  font-weight:700;
-		  }
-		  i {
-			  font-size:48px;
-		  }
-		  a {
-			  text-decoration:none;
-			  color:#FF69B4;
-			  font-weight:500;
-		  }
-		  a:hover {
-			  color:white;
-			  font-weight:500;
-			  background:#FF69B4;
-		  }
-		  .images {
-			  margin:0 auto 3% auto;
-			  padding:0;
-			  width: 380px;
-		  }
-		  img {
-			  display:inline;
-			  margin:0 auto;
-			  border-radius:50%;
-			  padding:0;
-		  }
-		  form {
-			  margin: 0 auto;
-			  width:350px;
-			  margin-bottom:50px;
-		  }
-		  label {
-			  display:block;
-			  padding:10px 0;
-			  
+		    font-family: "Roboto Slab";
+		    background-color:#333;
+		    font-size:18px;
+		    color:#ddd;
 		  }
 		  input {
-			  width: 330px;
-			  background-color:#b9e0f4;
-			  border:1px solid #b9e0f4;
-			  font-size:18px;
+		    width: 320px;
+		    background-color:black;
+		    border:1px solid black;
+		    font-size:18px;
+		    color:#ccc;
 		  }
 		  textarea {
-			  width:330px;
-			  background-color:#b9e0f4;
-			  border:1px solid #b9e0f4;
-			  font-size:18px;
+		    width:320px;
+		    background-color:black;
+		    border:1px solid black;
+		    color:#ccc;
+		    font-size:18px;
 		  }
-		  button {
-		    	padding: 0;
-		    	border: 2px solid #FF69B4;
-		    	font: inherit;
-		    	color: #FF69B4;
-		    	background-color: transparent;
-		    	cursor: pointer;
-			border-radius: 15px;
-			padding:5px 10px;
-			font-weight:500;
+	  }
+	  @media (prefers-color-scheme: light) {
+		  body {
+		    font-family: "Roboto Slab";
+		    background-color:white;
+		    font-size:18px;
 		  }
-		  button:hover {
-			  color:white;
-			  background-color:#FF69B4;
+		  input {
+		    width: 320px;
+		    background-color:#b9e0f4;
+		    border:1px solid #b9e0f4;
+		    font-size:18px;
 		  }
-	  </style>
+		  textarea {
+		    width:320px;
+		    background-color:#b9e0f4;
+		    border:1px solid #b9e0f4;
+		    font-size:18px;
+		  }
+	  }
+  </style>
 </head>
 <body>
 	<div class="main">
+		
 		<div class="images">
 			<img src="IMG_1307.png" width="90" height="90" alt="IMG 1307">
 			<img src="IMG_1306.jpeg" width="90" height="90" alt="IMG 1306">
 			<img src="IMG_5103.png" width="90" height="90" alt="IMG 5103">
 			<img src="1214.png" width="90" height="90" alt="1214">
 		</div>
-	<p>
-		Hello!<br><br>
-		<a href="http://olbe.net"><b>olbe.net</b></a> is for personal use only<br>(and is not for sale).<br><br>
-		If you want to reach us,<br>
-		please use the contact form below.<br><br>
-		Cheers, <br>R.
-	</p>
-	<form action="https://formspree.io/mlepvqej" method="POST">
-	  	<label>
-	    	Your email<br>
-			<input type="text" name="_replyto" required>
-	  	</label>
-	  	<label>
-	    	Your message<br>
-			<textarea name="message" rows="4" required></textarea>
-	  	</label>
-
-	  <!-- your other form fields go here -->
-
-	  	<button type="submit">Send</button>
-	</form>
-	<div class="info">
-		<p>&sdot; Hosted &commat; <a href="https://github.com">GitHub</a> &sdot; </p>
 		
-	</div>
+		<p>
+			Hello!<br><br>
+			<a href="http://olbe.net"><b>olbe.net</b></a> is for personal use only<br>(and is not for sale).<br><br>
+			If you want to reach us,<br>
+			please use the contact form below.<br><br>
+			Cheers, <br>R.
+		</p>
+	
+		<form action="https://formspree.io/mlepvqej" method="POST">
+		  	<label>
+		    	Your email:<br>
+				<input type="text" name="_replyto">
+		  	</label>
+		  	<label>
+		    	Your message:<br>
+				<textarea name="message" rows="4"></textarea>
+		  	</label>
 
+		  	<button type="submit">Send</button>
+		</form>
+	
+		<div class="info">
+			<p>&sdot; Hosted &commat; <a href="https://github.com">GitHub</a> &sdot; </p>
+		</div>
 	
 	</div>
 </body>
 </html>
-
