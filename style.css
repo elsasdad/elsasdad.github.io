@@ -63,14 +63,14 @@ label {
   
 }
 input {
-  width: 320px;
+  width:100%;
   background-color:#b9e0f4;
   border:1px solid #b9e0f4;
   font-size:18px;
   padding:2px;
 }
 textarea {
-  width:320px;
+  width:100%;
   background-color:#b9e0f4;
   border:1px solid #b9e0f4;
   font-size:18px;
