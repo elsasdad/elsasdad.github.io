@@ -1,8 +1,9 @@
-body {
+body, html {
     font-family:"Open Sans", sans-serif;
     font-size:24px;
     margin:0;
     padding:0;
+    background-color:#282A37;
 }
 h1 {
     font-family:"Open Sans", sans-serif;
@@ -83,21 +84,38 @@ h1 {
 }
 form {
     width:100%;
-    color:#63ECFF;
+    color:#eee;
 }
 input {
     width:100%;
-    background-color:#eee;
-    border:1px solid #ccc;
-    padding:5px;
+    background-color:#ddd;
+    border:none;
+    padding:10px;
     font-size:0.7em;
+    border-radius: 5px;
+    margin:10px 0 25px 0;
 }
 textarea {
     width:100%;
-    background-color:#eee;
-    padding:5px;
-    border:1px solid #ccc;
+    background-color:#ddd;
+    padding:10px;
+    border:none;
     font-size:0.7em;
+    border-radius: 5px;
+    margin:10px 0 25px 0;
+}
+button {
+    background-color:#63ECFF;
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size:1em;
+    font-weight:600;
+    color:#282A37;
+}
+button:hover {
+    color:#eee;
+    background-color:#282A37;
 }
 .noFile {
     width:105px;
