@@ -80,9 +80,6 @@ h1 {
     padding:100px 0px 20px 0;
     text-shadow: 4px 4px 10px #444;
 }
-.contact h2 {
-    
-}
 .contact p{
     color:white;
     margin:0;
@@ -95,7 +92,7 @@ form {
 }
 input {
     width:100%;
-    background-color:#ddd;
+    background-color:#eee;
     border:none;
     padding:10px;
     font-size:0.7em;
@@ -104,7 +101,7 @@ input {
 }
 textarea {
     width:100%;
-    background-color:#ddd;
+    background-color:#eee;
     padding:10px;
     border:none;
     font-size:0.7em;
