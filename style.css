@@ -65,16 +65,16 @@ input {
 	background-color:#b9e0f4;
 	border:1px solid #b9e0f4;
 	font-size:18px;
-	padding:5px;
-	border-radius:4px;
+	padding:10px;
+	border-radius:5px;
 }
 textarea {
 	width:100%;
 	background-color:#b9e0f4;
 	border:1px solid #b9e0f4;
 	font-size:18px;
-	padding:5px;
-	border-radius:4px;
+	padding:10px;
+	border-radius:5px;
 }
 button {
 	padding: 0;
