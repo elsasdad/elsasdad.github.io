@@ -118,8 +118,8 @@ button {
     color:#282A37;
 }
 button:hover {
-    color:#eee;
-    background-color:#282A37;
+    color:#282A37;
+    background-color:#FEAC22;
 }
 .noFile {
     width:105px;
