@@ -197,18 +197,18 @@ textarea {
 
 ::-webkit-input-placeholder { /* Chrome */
 	color: #fff;
-  }
-  :-ms-input-placeholder { /* IE 10+ */
-	color: #fff;
-  }
-  ::-moz-placeholder { /* Firefox 19+ */
-	color: #fff;
-	opacity: 1;
-  }
-  :-moz-placeholder { /* Firefox 4 - 18 */
-	color: #fff;
-	opacity: 1;
-  }
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+    opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+    color: #fff;
+    opacity: 1;
+}
   #headApp, #dgpApp, #bdApp, #gbmApp, #mamApp, #rsmApp, #gradApp, #ceoApp {
 	display:none;
 }
