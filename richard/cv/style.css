@@ -10,19 +10,19 @@ body, html {
     width:720px;
 }
 h1 {
-    font-size:1em;
+    font-size:1rem;
     font-weight:300;
     padding:0;
     margin:0 0 0 109px;
 }
 h2 {
-    font-size:0.7em;
+    font-size:0.7rem;
     font-weight:700;
     padding:0;
-    margin:2.1em 0 2.1em 109px;
+    margin:2.1rem 0 2.1rem 109px;
 }
 p {
-    font-size:0.45em;
+    font-size:0.45rem;
     padding:0;
     margin:0;
 }
@@ -33,21 +33,21 @@ table {
 }
 
 table h1 {
-    font-size:0.45em;
+    font-size:0.45rem;
     font-weight:700;
     padding:0;
-    margin:1em 0 0 0;
+    margin:1rem 0 0 0;
 }
 table h2 {
-    font-size:0.45em;
+    font-size:0.45rem;
     font-weight:400;
     font-style:italic;
     padding:0;
-    margin:0 0 0.7em 0;
+    margin:0 0 0.4rem 0;
     clear:both;
 }
 table p, table ul  {
-    font-size:0.45em;
+    font-size:0.45rem;
     padding:0;
     margin:0;
 }
@@ -59,7 +59,7 @@ td {
 
 tr {
     padding:0;
-    margin:0 0 2em 0;
+    margin:0 0 2rem 0;
 }
 table ul {
     list-style: square;
@@ -67,7 +67,7 @@ table ul {
     padding:0;
 }
 table ul li {
-    padding-bottom:0.3em;
+    padding-bottom:0.1rem;
 }
 table td a:hover .app {
     background-color:#777;
@@ -94,8 +94,8 @@ a:hover {
 .leftC {
     width:92px;
     text-align:right;
-    font-size:0.45em;
-    padding:1em 10px 0 0;
+    font-size:0.45rem;
+    padding:1rem 10px 0 0;
     margin:0 0 0 0;
     font-weight:500;
 }
@@ -108,7 +108,7 @@ b {
 .noteC {
     width:92px;
     text-align:right;
-    font-size:0.45em;
+    font-size:0.45rem;
     padding:0 8px 0 0;
     margin:0;
     vertical-align:middle;
@@ -117,13 +117,13 @@ b {
 .note {
     padding:15px;
     background-color:#64D2FF;
-    font-size:0.45em;
+    font-size:0.45rem;
     font-style:italic;
     border-radius:5px;
 }
 .app {
     background-color:#ddd;
-    font-size:0.2em;
+    font-size:0.2rem;
     min-width: 10px;
     float:left;
     padding:4px;
@@ -169,7 +169,7 @@ input {
 	border:1px solid #64D2FF;
 	padding:10px;
     border-radius:5px;
-    font-size:0.5em;
+    font-size:0.5rem;
 }
 textarea {
 	width:100%;
@@ -177,7 +177,7 @@ textarea {
 	border:1px solid #64D2FF;
 	padding:10px;
     border-radius:5px;
-    font-size:0.5em;
+    font-size:0.5rem;
 }
 .mailB {
 	padding: 0;
@@ -188,7 +188,7 @@ textarea {
 	border-radius: 20px;
 	padding:10px 20px 10px 20px;
     border:none;
-    font-size:0.45em;
+    font-size:0.45rem;
     font-weight:700;
 }
 .mailB::hover {
@@ -222,7 +222,7 @@ textarea {
 }
 .btnApp {
 	border:none;
-	font-size:1.05em;
+	font-size:0.45rem;
 	background-color:#fff;
 	padding:0;
 	margin:0;
@@ -233,7 +233,7 @@ textarea {
 	display:none;
 }
 #instructions {
-	font-size:0.45em;
+	font-size:0.45rem;
 }
 #instructions li {
 	list-style:square;
