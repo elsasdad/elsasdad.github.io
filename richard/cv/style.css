@@ -90,7 +90,8 @@ a:hover {
     border-bottom:1px solid #0A84FF;
 }
 .leftC {
-    width:92px;
+    /*width:92px;*/
+    width:200px;
     text-align:right;
     padding:1rem 10px 0 0;
     margin:0 0 0 0;
