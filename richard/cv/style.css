@@ -104,10 +104,10 @@ b {
     font-weight:700;
 }
 .noteC {
-    width:92px;
+    width:5rem;
     text-align:right;
     font-size:0.45rem;
-    padding:0 8px 0 0;
+    padding:0 0.3rem 0 0;
     margin:0;
     vertical-align:middle;
     font-weight:700;
@@ -130,7 +130,7 @@ b {
 }
 #instructions {
     display:none;
-    margin-left:110px;
+    margin-left:5.4rem;
     font-style:italic;
     background-color:#64D2FF;
     padding:15px;
@@ -219,7 +219,7 @@ textarea {
 	display:none;
 }
 #instructions {
-	font-size:0.45rem;
+    font-size:0.45rem;
 }
 #instructions li {
 	list-style:square;
@@ -235,6 +235,6 @@ textarea {
     margin-bottom:50px;
 }
 #gloss .leftC {
-    padding:0 9px 0 0;
+    padding:0 0.3rem 0 0;
     font-weight:600;
 }
