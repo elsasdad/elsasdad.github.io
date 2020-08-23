@@ -252,3 +252,6 @@ textarea {
     padding:0 9px 0 0;
     font-weight:600;
 }
+@media only screen and (max-width: 500px) {
+    html { font-size:50%; -webkit-text-size-adjust:none; }  /* should render everything * 0.8 */  
+}
