@@ -14,13 +14,13 @@ h1 {
     font-size:1rem;
     font-weight:300;
     padding:0;
-    margin:0 0 0 109px;
+    margin:0 0 0 5.4rem;
 }
 h2 {
     font-size:0.7rem;
     font-weight:700;
     padding:0;
-    margin:2.1rem 0 2.1rem 109px;
+    margin:2.1rem 0 2.1rem 5.4rem;
 }
 p {
     font-size:0.45rem;
@@ -91,9 +91,9 @@ a:hover {
 }
 .leftC {
     /*width:92px;*/
-    width:200px;
+    width:5rem;
     text-align:right;
-    padding:1rem 10px 0 0;
+    padding:1rem 0.3rem 0 0;
     margin:0 0 0 0;
     font-weight:500;
 }
