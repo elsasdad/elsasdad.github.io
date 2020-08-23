@@ -4,6 +4,7 @@ body, html {
     font-family:"Open Sans", sans-serif;
     font-size:34px;
     color:#282A37;
+    -webkit-text-size-adjust:none;
 }
 #wrapper {
     margin:50px 75px;
