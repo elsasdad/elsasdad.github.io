@@ -255,3 +255,4 @@ textarea {
 @media only screen and (max-width: 500px) {
     html { font-size:50%; -webkit-text-size-adjust:none; }  /* should render everything * 0.8 */  
 }
+-webkit-text-size-adjust: none;
