@@ -54,12 +54,9 @@ table p, table ul  {
 td {
     vertical-align:top;
     padding:0;
-    margin:0;
 }
-
 tr {
     padding:0;
-    margin:0 0 2rem 0;
 }
 table ul {
     list-style: square;
