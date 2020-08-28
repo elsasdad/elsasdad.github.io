@@ -246,7 +246,7 @@ textarea {
     display:none;
     margin-bottom:50px;
 }
-#gloss .leftC {
+#gloss .leftC p {
     padding:0 0.3rem 0 0;
     font-weight:600;
 }
