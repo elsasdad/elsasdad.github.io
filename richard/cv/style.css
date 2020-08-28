@@ -44,6 +44,9 @@ table {
     padding:0;
     margin:0;
 }
+#genInfo .leftC {
+    padding-top:0;
+}
 
 #wrapper table h1 {
     font-size:0.45rem;
@@ -51,6 +54,7 @@ table {
     padding:0;
     margin:1rem 0 0 0;
 }
+
 #wrapper table h2 {
     font-size:0.45rem;
     font-weight:400;
