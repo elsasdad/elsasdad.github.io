@@ -225,10 +225,9 @@ textarea {
 }
 #instructions {
     display:none;
-    margin-left:5.4rem;
     font-style:italic;
     background-color:#64D2FF;
-    padding:15px;
+    padding:15px 35px;
     border-radius:5px;
     font-size:0.45rem;
 }
