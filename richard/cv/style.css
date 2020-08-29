@@ -61,7 +61,12 @@ h4 {
     font-weight:400;
     font-style:italic;
 }
-
+h5 {
+    font-size:0.45rem;
+    padding:0;
+    margin:0;
+    font-weight:600;
+}
 
 
 table p, table ul  {
@@ -213,12 +218,11 @@ textarea {
 .bhead, p .bhead {
 	font-weight:700;
 	list-style:none;
-	margin:15px 0 0 0;
+	margin:10px 0 0 0;
 }
 .btnApp {
 	border:none;
 	font-size:0.45rem;
-	background-color:#fff;
 	padding:0;
 	margin:0;
     font-weight:700;
@@ -227,18 +231,24 @@ textarea {
 #profDev, #cth, #gu {
 	display:none;
 }
-#instructions {
+#instructions, .instr {
     display:none;
     font-style:italic;
-    background-color:#64D2FF;
-    padding:15px 35px;
-    border-radius:5px;
+    background-color:#FFCC00;
+    padding:15px 15px;
+    border-radius:10px;
     font-size:0.45rem;
     margin-top:15px;
 }
+.instr {
+    display:block;
+    border-radius:5px;
+    margin-bottom:15px;
+}
 
 #instructions li {
-	list-style:square;
+    list-style:square;
+    margin-left:20px;
 }
 #profDev b {
 	font-weight:700;
