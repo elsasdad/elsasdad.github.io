@@ -4,14 +4,12 @@ body, html {
     font-family:"Open Sans", sans-serif;
     font-size:34px;
     color:#282A37;
-    background-color:#eee;
     -webkit-text-size-adjust:none;
 }
 page {
     background: white;
   display: block;
   margin: 2cm auto;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
   width: 17cm;
   padding:2cm;
 }
@@ -44,7 +42,7 @@ p {
 table {
     width:100%;
     padding:0;
-    margin:0;
+    margin:0 0 10px 0;
 }
 #genInfo .leftC {
     padding-top:0;
@@ -206,7 +204,7 @@ textarea {
 	opacity: 1;
 }
 #headApp, #dgpApp, #bdApp, #gbmApp, #mamApp, #rsmApp, #gradApp, #ceoApp {
-	display:none;
+    display:none;
 }
 #headSum, #dgpSum, #bdSum, #gbmSum, #mamSum, #rsmSum, #gradSum, #ceoSum {
 	display:block;
@@ -235,6 +233,7 @@ textarea {
     padding:15px 35px;
     border-radius:5px;
     font-size:0.45rem;
+    margin-top:15px;
 }
 
 #instructions li {
@@ -251,6 +250,6 @@ textarea {
     margin-bottom:50px;
 }
 #gloss .leftC p {
-    padding:0 0.3rem 0 0;
+    padding:0;
     font-weight:600;
 }
