@@ -115,7 +115,6 @@ body, html {
 .subUL {
     padding:0 0 0 0rem;
     list-style:square;
-    font-size:0.4rem;
 }
 .subUL li {
     font-weight:400;
