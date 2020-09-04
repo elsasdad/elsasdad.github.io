@@ -10,9 +10,9 @@ body, html {
 
 /*WRAPPER*/
 #wrapper {
-    padding:0 1rem;
+    padding:0 2rem;
     margin:2rem auto 0 auto;
-    max-width:562px;
+    max-width:484px;
 }
 #wrapper h1 {
     font-size:0.7rem;
