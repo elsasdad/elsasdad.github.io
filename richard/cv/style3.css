@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     margin: 0;
     font-family:"Open Sans", sans-serif;
-    font-size:2.7vh;
+    font-size:34px;
     color:#282A37;
     width:100%;
     -webkit-text-size-adjust:120%;
@@ -10,9 +10,9 @@ body, html {
 
 /*WRAPPER*/
 #wrapper {
-    padding:0;
+    padding:0 1rem;
     margin:2rem auto 0 auto;
-    max-width:640px;
+    max-width:562px;
 }
 #wrapper h1 {
     font-size:0.7rem;
