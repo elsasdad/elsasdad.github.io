@@ -5,6 +5,7 @@ body, html {
     font-size:34px;
     color:#282A37;
     width:100%;
+    -webkit-text-size-adjust:none;
 }
 
 /*WRAPPER*/
@@ -92,8 +93,7 @@ body, html {
     font-weight:400;
 }
 #empHis .leftC p, #edu .leftC p, #pers .leftC p {
-    font-weight:300;
-   
+    font-weight:300; 
 }
 /*EDUCATION*/
 #edu h3, #pers h3{
