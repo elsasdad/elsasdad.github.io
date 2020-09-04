@@ -93,9 +93,7 @@ body, html {
 }
 #empHis .leftC p, #edu .leftC p, #pers .leftC p {
     font-weight:300;
-    font-size:0.45rem;
-    padding-top:0;
-    margin:0;
+   
 }
 /*EDUCATION*/
 #edu h3, #pers h3{
