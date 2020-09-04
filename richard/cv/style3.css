@@ -105,15 +105,14 @@ body, html {
 }
 .subUL li {
     font-size:0.4rem;
+    font-weight:400;
+    margin:0.25rem 0 0.25rem 0.5rem;
 }
 .subUL {
     padding:0 0 0 0rem;
     list-style:square;
 }
-.subUL li {
-    font-weight:400;
-    margin:0.25rem 0 0.25rem 0.5rem;
-}
+
 #profDev li {
     margin:0.25rem 0 0.25rem 0;
     font-weight:300;
