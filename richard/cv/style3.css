@@ -251,7 +251,7 @@ textarea {
 /*FILES*/
 
 /*FOOTER*/
-html #footer {
+body #footer {
     margin:2rem  0 0 0;
     padding:0.5rem;
     background-color:#282A37;
