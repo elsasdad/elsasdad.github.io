@@ -2,17 +2,17 @@ body, html {
     margin: 0;
     margin: 0;
     font-family:"Open Sans", sans-serif;
-    font-size:34px;
+    font-size:2.7vh;
     color:#282A37;
     width:100%;
-    -webkit-text-size-adjust:120%;
+    -webkit-text-size-adjust:100%;
 }
 
 /*WRAPPER*/
 #wrapper {
-    padding:0 1rem;
+    padding:0;
     margin:2rem auto 0 auto;
-    max-width:500px;
+    max-width:640px;
 }
 #wrapper h1 {
     font-size:0.7rem;
