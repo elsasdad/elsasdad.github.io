@@ -95,10 +95,6 @@ body, html {
 #empHis .leftC p, #edu .leftC p, #pers .leftC p {
     font-weight:300; 
 }
-/*EDUCATION*/
-#edu h3, #pers h3{
-    font-weight:600;
-}
 
 .mainUL {
     list-style:none;
