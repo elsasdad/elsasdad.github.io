@@ -63,16 +63,16 @@ body, html {
 }
 
 /*EMPLOYMENT HISTORY*/
-#empHis, #edu, #pers {
+#empHis, #edu, #pers, #dloads {
     margin: 0 0 2rem 0;
 }
-#empHis h1, #edu h1, #pers h1 {
+#empHis h1, #edu h1, #pers h1, #dloads h1 {
     font-size:0.45rem;
     font-weight:700;
     padding:0;
     margin:0;
 }
-#empHis h2, #edu h2, #pers h2 {
+#empHis h2, #edu h2, #pers h2, #dloads h2 {
     font-size:0.45rem;
     font-weight:300;
     font-style:italic;
@@ -80,19 +80,19 @@ body, html {
     margin:0 0 0.1rem 0;
     color:#666666;
 }
-#empHis h3, #edu h3, #pers h3 {
+#empHis h3, #edu h3, #pers h3, #dloads h3 {
     font-size:0.45rem;
     font-weight:600;
     padding:0;
     margin:0;
 }
-#empHis p, #edu p, #pers p {
+#empHis p, #edu p, #pers p, #dloads p {
     font-size:0.45rem;
     margin:0;
     padding:0;
     font-weight:400;
 }
-#empHis .leftC p, #edu .leftC p, #pers .leftC p {
+#empHis .leftC p, #edu .leftC p, #pers .leftC p, #dloads .leftC p {
     font-weight:300; 
 }
 
