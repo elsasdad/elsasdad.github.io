@@ -253,7 +253,7 @@ textarea {
 /*FOOTER*/
 body #footer {
     margin:2rem  0 0 0;
-    padding:0.5rem;
+    padding:0.5rem 1.5rem;
     background-color:#282A37;
 }
 #footer p {
