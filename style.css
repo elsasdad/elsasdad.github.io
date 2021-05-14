@@ -1,7 +1,9 @@
-body {
+body, html {
 	font-family: "Roboto Slab";
 	background-color:white;
 	font-size:18px;
+	padding:0;
+	margin:0;
 }
 .main {
 	margin:15% 0 25% 0%;
@@ -42,13 +44,17 @@ a:hover {
 .images {
 	margin:0 auto 3% auto;
 	padding:0;
-	width: 380px;
+	width: 370px;
+	text-align:center;
 }
 img {
 	display:inline;
 	margin:0 auto;
 	border-radius:50%;
 	padding:0;
+	width:23%;
+	height:auto;
+
 }
 form {
 	margin: 0 auto;
@@ -61,7 +67,7 @@ label {
 	padding:10px 0;
 }
 input {
-	width:100%;
+	width:95%;
 	background-color:#b9e0f4;
 	border:1px solid #b9e0f4;
 	font-size:18px;
@@ -69,7 +75,7 @@ input {
 	border-radius:5px;
 }
 textarea {
-	width:100%;
+	width:95%;
 	background-color:#b9e0f4;
 	border:1px solid #b9e0f4;
 	font-size:18px;
